@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home Page - Author</title>
+  <link rel="stylesheet" type="text/css" href="Author.css">
+</head>
+<body>
+  <header>
+    <h1>My Portfolio - Author</h1>
+    <nav>
+      <ul>
+        <li><a href="#works">My Works</a></li>
+        <li><a href="#add-work">Add Work</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="works">
+      <h2>My Works</h2>
+      <div class="work">
+        <img src="Arsitek1.webp" alt="Work 1">
+        <h3>Work 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="work">
+        <img src="work2.jpg" alt="Work 2">
+        <h3>Work 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="work">
+        <img src="work3.jpg" alt="Work 3">
+        <h3>Work 3</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </section>
+    <section id="add-work">
+      <h2>Add Work</h2>
+      <form>
+        <label for="work-name">Work Name:</label>
+        <input type="text" id="work-name" name="work-name" required>
+        <label for="work-image">Work Image:</label>
+        <input type="file" id="work-image" name="work-image" accept="image/*" required>
+        <label for="work-description">Work Description:</label>
+        <textarea id="work-description" name="work-description" required></textarea>
+        <button type="submit">Add</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 My Portfolio - Author</p>
+  </footer>
+</body>
+</html>

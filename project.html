@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Project Approval</title>
+  <link rel="stylesheet" type="text/css" href="project.css">
+</head>
+<body>
+  <header>
+    <h1>Project Approval</h1>
+    <nav>
+      <ul>
+        <li><a href="homeMana.html">Home</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="#">Reports</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="project-list">
+    <h2>Project List</h2>
+    <table>
+      <tr>
+        <th>Project Name</th>
+        <th>Uploaded By</th>
+        <th>Action</th>
+      </tr>
+      <tr>
+        <td>Residential Design</td>
+        <td>Supatcan RG</td>
+        <td>
+          <button class="approve-btn">Approve</button>
+          <button class="reject-btn">Reject</button>
+          <button class="view-btn">View Details</button>
+        </td>
+      </tr>
+      <tr>
+        <td>Commercial Design</td>
+        <td>J Phillips</td>
+        <td>
+          <button class="approve-btn">Approve</button>
+          <button class="reject-btn">Reject</button>
+          <button class="view-btn">View Details</button>
+        </td>
+      </tr>
+      <!-- Add more project rows here -->
+    </table>
+  </section>
+
+  <section id="project-details" style="display: none;">
+    <h2>Project Details</h2>
+    <p>Project Name: <span id="project-name"></span></p>
+    <p>Uploaded By: <span id="uploaded-by"></span></p>
+    <p>Description: <span id="project-description"></span></p>
+    <p>Status: <span id="project-status"></span></p>
+    <!-- Add more project details here -->
+    <button class="back-btn">Back</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 PT. Rainbow Ruby.Tbk</p>
+  </footer>
+
+  <script src="project.js"></script>
+</body>
+</html>

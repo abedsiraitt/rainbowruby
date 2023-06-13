@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PT. Rainbow Ruby.Tbk - Upload Project</title>
+  <link rel="stylesheet" type="text/css" href="upload.css">
+</head>
+<body>
+  <header>
+    <h1>Upload Project</h1>
+        <nav>
+            <ul>
+              <li><a href="homeArsi.html">Home</a></li>
+              <li><a href="upload.html">Upload Project</a></li>
+              <li><a href="reportsArsi.html">Reports</a></li>
+              <li><a href="#">Settings</a></li>
+            </ul>
+          </nav>
+      </header>
+  <section id="upload-form">
+    <form>
+      <label for="project-name">Nama Proyek:</label>
+      <input type="text" id="project-name" name="project-name" required>
+      
+      <label for="project-photo">Foto Proyek:</label>
+      <input type="file" id="project-photo" name="project-photo" accept="image/*" required>
+      
+      <label for="project-description">Deskripsi Proyek:</label>
+      <textarea id="project-description" name="project-description" rows="4" required></textarea>
+      
+      <label for="testimony-photo">Foto Testimoni:</label>
+      <input type="file" id="testimony-photo" name="testimony-photo" accept="image/*" required>
+      
+      <label for="price-range">Range Harga:</label>
+      <input type="text" id="price-range" name="price-range" required>
+
+      <button type="submit">Upload</button>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2023 PT. Rainbow Ruby.Tbk</p>
+  </footer>
+</body>
+</html>

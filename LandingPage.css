@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+ display: inline-flexbox;
+}
+
+header h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+  nav ul {
+    list-style: none;
+    
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    
+  }
+  
+  nav ul li a {
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  header nav ul li a:hover {
+    background-color: #555;
+  }
+  .btn-login {
+    padding: 10px 20px;
+    top: 20px;
+    right: 130px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    position: absolute;
+    display: inline-block;
+  }
+  .btn-register{
+    padding: 10px 20px;
+    top: 20px;
+    right: 30px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    position: absolute;
+    display: inline-block;
+  }
+  section {
+    padding: 40px;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  /* CSS for the About section */
+#about {
+    padding: 50px;
+    text-align: justify;
+  }
+  
+  #about h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  /* Optional: Add custom styles for links */
+  #about a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  #about a:hover {
+    text-decoration: underline;
+  }
+  
+  .btn-contact {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-contact:hover {
+    background-color: #555;
+  }
+  
+  ul {
+    margin-left: 20px;
+    list-style: disc;
+  }
+  
+  .portfolio-item {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  form input,
+  form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #555;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  .contact-icons {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .contact-icons a:hover {
+    color: #555;
+  }
+  
+  section#gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+  
+  .gallery-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .gallery-item a {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-decoration: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .gallery-item:hover a {
+    opacity: 1;
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer p {
+    color: #fff;
+    font-size: 14px;
+  }
+  .gallery-item a {
+    /* Gaya yang ada sebelum kursor diarahkan */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-decoration: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .gallery-item:hover a {
+    /* Gaya saat kursor diarahkan ke gambar */
+    opacity: 1;
+  }
+  
+  .gallery-item:hover a {
+    color: #fff;
+  }
